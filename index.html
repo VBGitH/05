@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05. JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div id="header-menu" class="header-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </div> 
+            
+            <div class="header-profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            </div>       
+        </div>
+        <div id="menu" class="menu display-none">
+            <div id="menu-map" class="menu-item">Карта</div>
+            <div id="menu-contact" class="menu-item">Контакты</div>
+            <div id="menu-company" class="menu-item">О компании</div>
+        </div>
+
+        <div id="company" class="company display-none">
+            <ul>
+                <li>Наименование: ООО Фирма Компьютер Сервис</li>
+                <li>ИНН:    1001141729</li>
+                <li>КПП:    100101001</li>
+                <li>ОГРН:   1021000538602</li>
+                <li>Юр. адрес: 185035, Республика Карелия, г. Петрозаводск, ул. Красная 10, офис 5</li>
+                <li>Аккредитованная IT компания —<a href="https://www.gosuslugi.ru/itorgs">https://www.gosuslugi.ru/itorgs</a></li>
+            </ul>   
+        </div>
+
+        <div id="contact" class="contact display-none">
+            <ul>
+                <li>Телефон: +7 (8142) 55-55-05</li>
+                <li>E-mail: zakaz@pcs.ru</li>
+                <li>Юр. адрес: 185035, Республика Карелия, г. Петрозаводск, ул. Красная 10, офис 5</li>
+            </ul>   
+        </div>
+
+        <div id="map" class="map display-none">
+            <img width="75%" src="map.png" alt="">
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
